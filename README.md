@@ -1,8 +1,8 @@
 # Downtown Seattle Economic Vitality & Public Realm Recovery Index (2025–2026)
 
-[![Database: BigQuery](https://img.shields.io/badge/Database-Google%20BigQuery-blue?style=flat-square&logo=google-cloud)](https://cloud.google.com/bigquery)
-[![Analytics: Python](https://img.shields.io/badge/Analytics-Python%20%7C%20Statsmodels-green?style=flat-square&logo=python)](https://www.python.org/)
-[![BI: Looker Studio](https://img.shields.io/badge/BI-Looker%20Studio-orange?style=flat-square)](https://lookerstudio.google.com/)
+[![Database: BigQuery](https://img.shields.io/badge/Database-Google%20BigQuery-blue?style=flat-square&logo=google-cloud)](sql/)
+[![Analytics: Python](https://img.shields.io/badge/Analytics-Python%20%7C%20Statsmodels-green?style=flat-square&logo=python)](notebooks/)
+[![BI: Looker Studio](https://img.shields.io/badge/BI-Looker%20Studio-orange?style=flat-square)](docs/Dashboard_Executive_Summary.md)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](LICENSE)
 
 Quick links:
@@ -14,9 +14,9 @@ Quick links:
 - [Docs](docs/)
 - [MIT License](LICENSE)
 
-This end-to-end portfolio analyzes how public realm stewardship influences pedestrian activity in downtown Seattle by combining synthetic telemetry, service-desk logs, warehouse modeling, and statistical inference. The project is designed as a cloud-native analytics exercise representative of an urban operations dashboard used to evaluate service responsiveness, cleanliness, safety, and district-level foot traffic dynamics.
+This end-to-end portfolio analyzes how public realm stewardship influences pedestrian activity in downtown Seattle by combining synthetic telemetry, service-desk logs, warehouse modeling, and stat[...] 
 
-The repository demonstrates a structured pipeline from synthetic data generation through schema validation, transformation, statistical testing, and executive reporting. It is intentionally built to be reproducible in a zero-cost Google Cloud sandbox and to mirror the flow of a real municipal analytics operation.
+The repository demonstrates a structured pipeline from synthetic data generation through schema validation, transformation, statistical testing, and executive reporting. It is intentionally built to b[...] 
 
 ---
 
@@ -77,7 +77,7 @@ The project dependencies are defined in [requirements.txt](requirements.txt).
 
 ## Analytical focus
 
-The analysis evaluates how public realm interventions and service response performance influence foot traffic intensity across downtown districts. The workflow centers on a robust panel-regression framework, using synthetic operational data to estimate relationships between service resolution, response time, and pedestrian demand.
+The analysis evaluates how public realm interventions and service response performance influence foot traffic intensity across downtown districts. The workflow centers on a robust panel-regression[...]
 
 This project highlights the value of:
 - service operations management,
